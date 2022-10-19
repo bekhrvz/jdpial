@@ -960,5 +960,131 @@ main .h1 h1 {
 .carousel {
     max-width: 50px;
 }
+}  
+@media  screen and (max-width:300px) {
+    .top-bar {
+        display: flex; 
+        align-items: center; 
+        justify-content: space-between; 
+        padding: 20px 60px; 
+        background: #ef4b3f;  
+        max-width: 100%;
+    }  
+    .top-bar span {
+        font-size: 15px;
+    }
+    nav {
+        display: block; 
+        position: relative; 
+        padding: 15px 20px; 
+
+    } 
+    .menu {
+        margin-top: 15px; 
+        display: none; 
+
+    } 
+    .menu.active,.toggle {
+        display: block; 
+
+    } 
+    .toggle {
+        top: 15px; 
+        right: 20px;         
+        position: absolute;
+    } 
+   .nav-menu nav {
+    display: none;
+   } 
+   .menu-nav {
+    display: block; 
+   
+   } 
+   .top-bar {
+      padding-top: 50px; 
+    margin-top: 50px;
+   }
+    
+   main .carousel {
+    max-width: 500px; 
+    display: block; 
+    margin: auto;
+}  
+main .h1 h1 {
+    font-size: 30px; 
+    text-transform: uppercase; 
+    text-align: center; 
+    color: rgb(16, 7, 7);
+    margin: 0; 
+    padding-top: 40px;
+}  
+.history_font h1 {
+    font-size: 30px; 
+    text-align: center; 
+    padding-top: 50px;
+}   
+.history_text {
+    max-width: 400px; 
+    margin: auto;
+}  
+.block {
+    max-width: 400px; 
+   display: block; 
+   
+    margin: auto; 
+     padding: 15px;
+}   
+.location-map {
+   display: none; 
+
+} 
+.loaction-map-2 iframe {
+    display: block; 
+    margin: auto; 
+    text-align: center; 
+    max-width: 300px;
+} 
+.icons {
+    padding-left: 30px ;
+    
+    max-width: 400px; 
+    display: block; 
+    margin: 69px;
+  } 
+  footer {
+    background-color: rgb(186, 185, 185); 
+    max-width: 800px; 
+    height: 125vh;
+ } 
+ .footer-block {
+   display: block; 
+    margin: auto; 
+    max-width: 1000px;
+ }   
+ .line3 {
+    display: none;
+ } 
+ .footer-font h1{
+      font-size: 20px;
+ } 
+ #fikr {
+    border: 1px solid black; 
+    padding: 40px 40px; 
+    
+    margin: 10px;  
+} 
+.line {
+    height: 2px; 
+    width: 300px; 
+    color: black; 
+    background-color: #222; 
+    margin: auto;
+} 
+.history_text {
+    max-width: 300px;
+} 
+.carousel {
+    max-width: 50px;
+}
 } 
 
